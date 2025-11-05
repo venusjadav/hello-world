@@ -1,0 +1,43 @@
+@media(min-width:1201px) and (max-width:1600px){
+	
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+	
+}
+
+@media(min-width:992px) and (max-width:1024px){
+	
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+@media(min-width:576px) and (max-width:767px){
+	
+}
+
+@media(min-width:448px) and (max-width:575px){
+	
+}
+
+@media(max-width:447px){
+
+}
+
+@media(max-width:991px){
+
+	.sidebarbtn {display: block;}
+	body.show-sidebar{overflow: hidden;}
+	aside.sidebar{position: fixed !important;top: 0;left:-100%;width: 280px;height: 100vh;overflow: auto;background: #fff;z-index: 999;padding: 60px 25px 25px;right: auto;}
+	aside.sidebar.show-sidebar{left: 0;}
+	.sidenav-links{padding: 0 0 15px;border: none;border-bottom: 1px solid #E6E5F6;border-radius: 0;}
+	.sidenav-links li{margin: 0 0 10px;}
+	.sidenav-links li a{font-size: 14px;}
+	.paybtn{padding: 15px 15px;border-radius: 10px;font-size: 15px;}
+	.paybtn img{min-width: 30px;width: 30px;}
+	.close-btn{position: absolute;top: 15px;left: 15px;font-size: 20px;color: #111;display: block;}
+	.close-btn:hover{color: #C8A748;}
+	.sidenav-links li a:before{width: 2px;}
+}

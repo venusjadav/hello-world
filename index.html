@@ -1,20 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-                    <title>Hello World!</title>
-                    <link rel="stylesheet" href="bluestyle.css">
+    <!-- Meta tag -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon & Title -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png" />
+    <title>Painter</title>
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/aos.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
 </head>
 
 <body>
+    <div class="main-wrpper">
 
-                    <h1>Hello world!</h1>
-                    <div><img src="img_hello_world.jpg" alt="Hello World from Space" style="width:100%;max-width:960px">
+        <!-- Header -->
+        <section class="top-bar">
+            <div class="container">
+                <ul class="con-list">
+                    <li>
+                        <a href="tel:0212518638"><i class="far fa-phone-alt"></i>
+                            0212518638</a>
+                    </li>
+                    <li>
+                        <a href="info@painters.co.nz"><i class="fas fa-at"></i>
+                            painters.co.nz</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-paper-plane"></i>
+                            Auckland,
+                            New
+                            Zealand</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Logo" /></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#NavbarToggle" aria-controls="NavbarToggle" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="NavbarToggle">
+                        <ul class="navbar-nav">
+                            <li><a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li><a class="nav-link" href="#">About</a>
+                            </li>
+                            <li><a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li><a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li><a class="nav-link" href="#">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                        <div class="start-btn">
+                            <a href="#" class="primary-btn">Start
+                                here
+                            </a>
+                        </div>
                     </div>
-                    <p>This is the first file in my new Git Repo.</p>
-                    <p>A new line in our file!</p>
-                    <div><img src="img_hello_git.jpg" alt="Hello Git" style="width:100%;max-width:640px"></div>
+                </nav>
+            </div>
+        </header>
+        <!-- End Header -->
 
+        <!-- Start Hero Banner  -->
+        <section class="hero-banner-wrp">
+            <div class="container">
+                <div class="hero-block">
+                    <h1>Getting your home
+                        painted
+                        is
+                        easy
+                        with
+                        us.
+                    </h1>
+                    <p>We Provide Affordable
+                        Residential
+                        And
+                        Commercial
+                        Painting
+                        Services
+                        Throughout
+                        Auckland.
+                    </p>
+                    <div class="hero-btn">
+                        <a href="#" class="primary-btn">Check
+                            work</a>
+                        <a href="#" class="secondary-btn">Know
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Banner  -->
+
+        <!-- Start Appiontment -->
+        <section class="appointment-wrp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12">
+                        <div class="appiont-title">
+                            <h2>Book your appointment
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <div class="form-block">
+                            <form>
+                                <div class="grp-con">
+                                    <div class="form-group">
+                                        <input type="text" name="Name" placeholder="Name" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" name="Number" placeholder="Mobile Number"
+                                            class="form-control">
+                                    </div>
+                                    <button type="submit">Send
+                                        a
+                                        Message</button>
+                                </div>
+                                <div class="grp-con">
+                                    <div class="form-group">
+                                        <input type="email" name="Email" placeholder="Email" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="service">
+                                            <option>Service
+                                            </option>
+                                            <option>Service
+                                            </option>
+                                            <option>Service
+                                            </option>
+                                            <option>Service
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="grp-con">
+                                    <div class="form-group">
+                                        <input type="text" name="Address" placeholder="Address"
+                                            class="form-control address">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Appiontment -->
+
+        <!--  Start  -->
+        <!--  End -->
+
+    </div>
+
+    <!-- script -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- End script -->
 </body>
 
 </html>
